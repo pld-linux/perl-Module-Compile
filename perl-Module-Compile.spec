@@ -4,7 +4,6 @@
 #
 %define		pdir	Module
 %define		pnam	Compile
-%include	/usr/lib/rpm/macros.perl
 Summary:	Module::Compile - Perl Module Compilation
 #Summary(pl.UTF-8):	
 Name:		perl-Module-Compile
