@@ -7,17 +7,18 @@
 Summary:	Module::Compile - Perl Module Compilation
 #Summary(pl.UTF-8):	
 Name:		perl-Module-Compile
-Version:	0.35
-Release:	2
+Version:	0.38
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Module/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7b9cf30692ab350d2ac013db55d9bc34
+# Source0-md5:	b51c0b2ebc169b2290d4c4d40fbd6206
 URL:		http://search.cpan.org/dist/Module-Compile/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
+BuildRequires:	perl-Capture-Tiny
 BuildRequires:	perl-Digest-SHA1 >= 2.13
 %endif
 BuildArch:	noarch
